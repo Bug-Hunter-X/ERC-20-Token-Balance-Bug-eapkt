@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in ERC-20 token contracts: an incorrect balance update after a transfer. The bug is in the `balanceOf` function, which fails to reflect the updated balances after a transfer. The solution involves properly updating the balances of both sender and receiver.
